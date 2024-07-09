@@ -31,7 +31,7 @@ async function handleDiceRoll(formula, username) {
 
         ChatMessage.create({
             content: result,
-            speaker: { alias: username }
+            speaker: { alias: "爱乌" }
         });
 
     } catch (error) {
