@@ -43,7 +43,7 @@ Hooks.once('ready', async function () {
 });
 // 注册监听聊天信息的 Hook
 Hooks.on("renderChatMessage", async (message, html, data) => {
-    console.log(message.content);
+    // console.log(message.content);
     // 如果功能未开启，直接返回
     if (!dicepp_enable) return;
     let speakername = message.speaker.alias;
