@@ -1,20 +1,18 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
-  "version": "#{VERSION}#",
+  "id": "dicepp-foundry",
+  "title": "用于FVTT聊天栏的梨骰MOD",
+  "description": "用于FVTT聊天栏的梨骰MOD，可以接入梨骰。",
+  "version": "1.0.0",
   "library": "false",
-  "manifestPlusVersion": "1.2.0",
+  "manifestPlusVersion": "1.0.0",
   "compatibility": {
     "minimum": 10,
-    "verified": 10,
+    "verified": 11,
     "maximum": 11
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "星尘"
     }
   ],
   "relationships": {
@@ -37,7 +35,7 @@
       "path": "languages/en.json"
     }
   ],
-  "url": "#{URL}#",
+  "url": "https://github.com/kagangtuya-star/Dicepp-Foundry",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
   "license": "LICENSE",
